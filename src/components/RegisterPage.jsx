@@ -39,18 +39,18 @@ const RegisterPage = () => {
   };
 
   return (
-    <div className="container mt-5">
+    <div className="container my-5">
       <div className="row justify-content-center">
         <div className="col-md-6">
           <div className="card">
             <div className="card-body">
               <h3 className="card-title text-center">Registro</h3>
               <form onSubmit={handleSubmit}>
-                <div className="form-group">
+                <div className="form-group ">
                   <label htmlFor="email">Email</label>
                   <input
                     type="email"
-                    className="form-control"
+                    className="form-control mb-2"
                     id="email"
                     name="email"
                     value={formData.email}
@@ -58,7 +58,7 @@ const RegisterPage = () => {
                     placeholder="Email"
                   />
                 </div>
-                <div className="form-group">
+                <div className="form-group mb-2">
                   <label htmlFor="password">Contraseña</label>
                   <input
                     type="password"

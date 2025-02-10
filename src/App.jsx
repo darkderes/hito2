@@ -1,8 +1,8 @@
 import Footer from "./components/footer";
-import LoginPage from "./components/LoginPage";
-// import Home from "./components/Home";
+// import LoginPage from "./components/LoginPage";
+//  import Home from "./components/Home";
 import NavbarApp from "./components/Navbar";
-// import RegisterPage from "./components/RegisterPage";
+import RegisterPage from "./components/RegisterPage";
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
 
       {/* <Home /> */}
 
-      {/* <RegisterPage /> */}
+      <RegisterPage />
 
-      <LoginPage />
+      {/* <LoginPage /> */}
 
       <Footer />
     </>
