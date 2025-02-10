@@ -24,6 +24,15 @@ const LoginPage = () => {
       alert("La contraseña debe tener al menos 6 caracteres");
       return;
     }
+    if (
+      formData.email === "prueba@prueba.com" &&
+      formData.password === "1234567"
+    ) {
+      alert("Login exitoso");
+    } else {
+      alert("Email o contraseña incorrectos");
+    }
+
     alert(JSON.stringify(formData, null, 2));
     setFormData({
       email: "",
